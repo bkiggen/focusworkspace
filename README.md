@@ -52,4 +52,4 @@ For inquiries, issues, or contributions, please contact Ben Kiggen at benkiggen@
 ##License
 License: MIT license
 
-Copyright (c) 2016 Ben Kiggen
+Copyright (c) 2018 Ben Kiggen
