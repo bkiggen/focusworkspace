@@ -33,7 +33,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+        }
     }),
     new HtmlWebpackPlugin({
     template: './src/contact.html',
@@ -41,8 +45,24 @@ module.exports = {
     minify: {
       removeComments: true,
       collapseWhitespace: true
-    }
-  }),
+      }
+    }),
+    new HtmlWebpackPlugin({
+    template: './src/ammenities.html',
+    filename: 'ammenities.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+      }
+    }),
+    new HtmlWebpackPlugin({
+    template: './src/plans.html',
+    filename: 'plans.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+      }
+    }),
   ]
 
 };

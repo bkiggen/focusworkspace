@@ -14,11 +14,11 @@ Download it @ https://github.com/bkiggen/focusworkspace
 *Download the .zip file or clone from command line
 *Open index.html in your chosen browser and/or IDE
 
-##Research
+## Research
 
 I did extensive research into the branding done for workspace companies, with specific attention paid to those in New York City. Something they all had in common was a simple, easy-to-navigate layout. They varied in their design styles but consistent across all of them was a sense of cleanliness and order. They often employed sparse layouts but were typically very aesthetically pleasing. The sites communicated that "this is a clean, stylish space where intelligent professionals do business". Clean lines, sans-serif fonts, and large hero headers.
 
-##Client Specifications
+## Client Specifications
 
 * Online presence must match in-person presence
   * luxurious / high-end
@@ -43,13 +43,16 @@ I did extensive research into the branding done for workspace companies, with sp
     * membership
     * how to join
 
-##Technologies Used
+## Technologies Used
 _This software was created using HTML, CSS, javascript, and jQuery _
 
 ##Support and contact details
 For inquiries, issues, or contributions, please contact Ben Kiggen at benkiggen@gmail.com
 
-##License
+## License
 License: MIT license
+
+## Notes
+10am-1pm Friday spent troubleshooting dev environment problems.
 
 Copyright (c) 2018 Ben Kiggen
