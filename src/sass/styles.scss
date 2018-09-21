@@ -5,13 +5,15 @@ $grey: #E8E8E8;
 
 
 html {
-  font-size: 2vw;
+  // font-size: 2vw;
   font-family: $font-stack;
   text-align: center;
+  color: $salmon;
 }
 
 a {
   text-decoration: none;
+  color: $salmon;
 }
 
 .logo {
@@ -30,7 +32,6 @@ header {
   background-color: $brown;
   a {
     font-size: 20px;
-    color: $salmon;
     text-transform: uppercase;
   }
   .link-container {
@@ -55,7 +56,6 @@ header {
 
 .hero {
   overflow: hidden;
-  color: $salmon;
   position: relative;
   width: 100%;
   height: 500px;
@@ -100,8 +100,6 @@ header {
   left: 0;
   right: 0;
   margin: auto;
-  color: $salmon;
-
   p:first-of-type {
     font-size: 2rem;
   }
@@ -111,7 +109,6 @@ header {
 }
 
 .grey-card {
-
   width: 70%;
   height: 150px;
   position: absolute;
@@ -127,20 +124,48 @@ header {
   }
 }
 
+.members-say {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
 
+.members {
+  width: 90%;
+  background-color: $grey;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-
-
-
-
+.member-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 130px;
+  margin: 0 auto;
+  background-color: white;
+  img {
+    height: 100px;
+    border-radius: 50px;
+  }
+  p {
+    width: 300px;
+  }
+}
 
 footer {
+  margin-top: 80px;
+  padding-top: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
   max-width: 1500px;
-  height: 180px;
+  height: 200px;
   background-color: $brown;
   align-items: center;
   a {
