@@ -21,7 +21,7 @@ Download it @ https://github.com/bkiggen/focusworkspace
 
 ## Screenshots
 
-
+![alt text](wireframes/wireframe-screenshots/Homepage - ipad.png)
 
 ## Research
 
