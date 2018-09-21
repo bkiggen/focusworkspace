@@ -21,7 +21,12 @@ Download it @ https://github.com/bkiggen/focusworkspace
 
 ## Screenshots of Wireframes
 
-![web home](wireframes/wireframe-screenshots/home-web)
+![web home](wireframes/wireframe-screenshots/home-web.png)
+![ipad home](wireframes/wireframe-screenshots/home-ipad.png)
+![iphone home](wireframes/wireframe-screenshots/home-iphone.png)
+![iphone ammenities home](wireframes/wireframe-screenshots/ammentities-iphone.png)
+![iphone plans](wireframes/wireframe-screenshots/plans-iphone.png)
+![iphone contact](wireframes/wireframe-screenshots/contact-iphone.png)
 
 ## Research
 
