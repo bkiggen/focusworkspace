@@ -3,9 +3,11 @@ $salmon: #D56363;
 $brown: #251912;
 $grey: #E8E8E8;
 
+
 html {
   font-size: 2vw;
   font-family: $font-stack;
+  text-align: center;
 }
 
 a {
@@ -68,7 +70,7 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, .7);
     p {
-      text-align: center;
+
       // font-size: 2rem;
       font-size: 40px;
     }
@@ -77,6 +79,51 @@ header {
       font-size: 80px;
       font-style: italic;
     }
+  }
+}
+
+.whatisit {
+  width: 90%;
+  background-color: $grey;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0px;
+  height: 450px;
+}
+
+.white-card {
+  position: absolute;
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  top: -25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: $salmon;
+
+  p:first-of-type {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+.grey-card {
+
+  width: 70%;
+  height: 150px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 20px;
+  background-color: $grey;
+  border: 5px solid white;
+  p {
+    font-size: 1.5rem;
   }
 }
 
@@ -91,7 +138,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  text-align: center;
   width: 100%;
   max-width: 1500px;
   height: 180px;
@@ -99,6 +145,7 @@ footer {
   align-items: center;
   a {
     font-size: 1rem;
+    padding: 10px;
   }
   .social-links {
     img {
