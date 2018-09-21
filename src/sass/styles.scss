@@ -1,7 +1,56 @@
-$font-stack: Helvetica, sans-serif;
-$primary-font-color: red;
+$font-stack: Montserrat, sans-serif;
+$salmon: #D56363;
+$Brown: #251912;
+$Grey: #E8E8E8;
 
-body {
-  font: 100% $font-stack;
-  color: green;
+html {
+  font-size: 2vw;
+  font-family: $font-stack;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  height: 80px;
+  background-color: $Brown;
+  a {
+    font-size: 20px;
+    color: $salmon;
+    text-transform: uppercase;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
+}
+
+.logo {
+  height: 70px;
+  width: 55px;
+}
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 1500px;
+  height: 240px;
+  background-color: $Brown;
+  align-items: center;
 }
