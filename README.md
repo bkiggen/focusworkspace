@@ -19,9 +19,9 @@ Download it @ https://github.com/bkiggen/focusworkspace
 * Download the .zip file or clone from command line
 * Open index.html in your chosen browser and/or IDE
 
-## Screenshots
+## Screenshots of Wireframes
 
-![alt text](wireframes/wireframe-screenshots/Homepage - ipad.png)
+![web home](wireframes/wireframe-screenshots/home-web)
 
 ## Research
 
