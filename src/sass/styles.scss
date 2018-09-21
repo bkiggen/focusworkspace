@@ -1,7 +1,7 @@
 $font-stack: Montserrat, sans-serif;
 $salmon: #D56363;
-$Brown: #251912;
-$Grey: #E8E8E8;
+$brown: #251912;
+$grey: #E8E8E8;
 
 html {
   font-size: 2vw;
@@ -12,6 +12,12 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  height: 70px;
+  width: 55px;
+}
+
+
 header {
   display: flex;
   justify-content: space-around;
@@ -19,23 +25,32 @@ header {
   width: 100%;
   max-width: 1500px;
   height: 80px;
-  background-color: $Brown;
+  background-color: $brown;
   a {
     font-size: 20px;
     color: $salmon;
     text-transform: uppercase;
   }
+  .link-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    justify-content: center;
+  }
+  .link-container:hover {
+    background-color: lighten($brown, 5);
+    a {
+      color: white;
+    }
+  }
   .nav{
     display: flex;
     justify-content: space-around;
-    width: 300px;
+    width: 40%;
   }
 }
 
-.logo {
-  height: 70px;
-  width: 55px;
-}
 
 
 
@@ -47,10 +62,21 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   text-align: center;
   width: 100%;
   max-width: 1500px;
-  height: 240px;
-  background-color: $Brown;
+  height: 180px;
+  background-color: $brown;
   align-items: center;
+  a {
+    font-size: 1rem;
+  }
+  .social-links {
+    img {
+      width: 40px;
+      height: 40px;
+      padding: 0px 15px;
+    }
+  }
 }
