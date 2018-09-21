@@ -21,12 +21,7 @@ Download it @ https://github.com/bkiggen/focusworkspace
 
 ## Screenshots of Wireframes
 
-![web home](wireframes/wireframe-screenshots/home-web.png)
-![ipad home](wireframes/wireframe-screenshots/homepage-ipad.png)
-![iphone home](wireframes/wireframe-screenshots/homepage-iphone.png)
-![iphone ammenities home](wireframes/wireframe-screenshots/ammenities-iphone.png)
-![iphone plans](wireframes/wireframe-screenshots/plans-iphone.png)
-![iphone contact](wireframes/wireframe-screenshots/contact-iphone.png)
+![FOCUS views](wireframes/wireframe-screenshots/all-views.png)
 
 ## Research
 
@@ -56,6 +51,10 @@ I did extensive research into the branding done for workspace companies, with sp
     * costs
     * membership
     * how to join
+
+## User Stories
+
+![user stories](user-stories/user-stories.png)
 
 ## Technologies Used
 _This software was created using HTML, CSS, javascript, and jQuery _
