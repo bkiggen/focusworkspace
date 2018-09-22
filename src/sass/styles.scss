@@ -11,6 +11,10 @@ html {
   color: $salmon;
 }
 
+body {
+
+}
+
 a {
   text-decoration: none;
   color: $salmon;
@@ -21,7 +25,6 @@ a {
   width: 55px;
 }
 
-
 header {
   display: flex;
   justify-content: space-around;
@@ -31,7 +34,7 @@ header {
   height: 80px;
   background-color: $brown;
   a {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-transform: uppercase;
   }
   .link-container {
@@ -54,12 +57,19 @@ header {
   }
 }
 
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 .hero {
   overflow: hidden;
   position: relative;
   width: 100%;
   height: 500px;
   max-width: 1500px;
+  .img-container {
+    align-items: flex-start;
+  }
   img {
     width: 100%;
   }
@@ -79,6 +89,15 @@ header {
       font-size: 80px;
       font-style: italic;
     }
+  }
+}
+
+
+
+@media screen and (max-width: 800px){
+  .hero img {
+    height: 500px;
+    width: auto;
   }
 }
 
@@ -180,4 +199,43 @@ footer {
       padding: 0px 15px;
     }
   }
+}
+
+.coffee {
+  background-image: url(../assets/img/client_photos/coffeecounter.jpg);
+  background-size: cover;
+}
+
+.internet {
+  background-image: url(../assets/img/client_photos/internet.jpg);
+  background-size: cover;
+}
+
+.printing {
+  background-image: url(../assets/img/client_photos/printer.jpg);
+  background-size: cover;
+}
+
+.yoga {
+  background-image: url(../assets/img/client_photos/yoga.jpg);
+  background-size: cover;
+}
+
+.office {
+  background-image: url(../assets/img/client_photos/office.jpg);
+  background-size: cover;
+}
+
+.desk {
+  background-image: url(../assets/img/client_photos/deskday.jpg);
+  background-size: cover;
+}
+
+.nightowl {
+  background-image: url(../assets/img/client_photos/desknight.jpg);
+  background-size: cover;
+}
+
+.downtown {
+  
 }
