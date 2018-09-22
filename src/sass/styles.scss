@@ -134,18 +134,19 @@ header {
   width: 90%;
   background-color: $grey;
   margin: 0 auto;
-  height: 500px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .member-box {
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 80%;
-  height: 130px;
+  height: 140px;
   margin: 0 auto;
   background-color: white;
   img {

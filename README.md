@@ -16,8 +16,16 @@ See it live @ https://bkiggen.github.io/focusworkspace
 
 Download it @ https://github.com/bkiggen/focusworkspace
 
-* Download the .zip file or clone from command line
-* Open index.html in your chosen browser and/or IDE
+* Download and run from the Command Line:
+```
+$cd ~/desktop
+$git clone https://github.com/bkiggen/focusworkspace
+$cd focusworkspace
+$npm Install
+$npm run build
+$npm run start
+
+```
 
 ## Screenshots of Wireframes
 
