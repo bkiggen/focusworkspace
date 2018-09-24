@@ -92,19 +92,6 @@ main {
   }
 }
 
-@media screen and (max-width: 800px){
-  .hero p {
-    font-size: 40px;
-  }
-}
-
-
-@media screen and (max-width: 800px){
-  .hero img {
-    height: 500px;
-    width: auto;
-  }
-}
 
 .whatisit {
   width: 90%;
@@ -265,4 +252,21 @@ footer {
   img {
     margin: 0 auto;
   }
+}
+
+
+@media screen and (max-width: 800px){
+  .white-text {
+    font-size: 20px;
+  }
+  .hero img {
+    height: 500px;
+    width: auto;
+  }
+  .link-container a{
+    display: none;
+  }
+  .logo {
+  }
+
 }
