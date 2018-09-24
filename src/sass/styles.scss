@@ -55,6 +55,23 @@ header {
     justify-content: space-around;
     width: 40%;
   }
+  .hamburger {
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+  }
+  .drop-menu {
+    display: none;
+    position: absolute;
+    right: -10px;
+    background-color: $brown;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .hamburger:hover .drop-menu {
+    display: block;
+  }
 }
 
 main {
@@ -80,7 +97,6 @@ main {
     width: 100%;
     background-color: rgba(255, 255, 255, .7);
     p {
-
       // font-size: 2rem;
       font-size: 40px;
     }
@@ -254,6 +270,11 @@ footer {
   }
 }
 
+@media screen and (min-width: 800px){
+  .hamburger {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 800px){
   .white-text {
@@ -266,7 +287,7 @@ footer {
   .link-container a{
     display: none;
   }
-  .logo {
+  .hamburger {
+    display: inline-block;
   }
-
 }
