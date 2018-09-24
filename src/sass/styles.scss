@@ -71,7 +71,7 @@ main {
     align-items: flex-start;
   }
   img {
-    width: 100%;
+
   }
   .white-text {
     position: absolute;
@@ -92,6 +92,11 @@ main {
   }
 }
 
+@media screen and (max-width: 800px){
+  .hero p {
+    font-size: 40px;
+  }
+}
 
 
 @media screen and (max-width: 800px){
@@ -259,6 +264,5 @@ footer {
   align-items: center;
   img {
     margin: 0 auto;
-    height: 100%;
   }
 }
