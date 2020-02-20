@@ -7,11 +7,11 @@ By Ben Kiggen
 ## Description
 This is a 2-week project spanning units 2.2 and 2.3 in Epicodus' User Interfaces class. I was presented with a client's non-technical specs for a website and built a site, attending to each step of the design process. This includes creating profiles and stories for main groups of potential users to guide development, hand sketching the layout, wireframing using Adobe xD, prototyping using the same tool, and finally building the site in html, css (with Sass), and javascript (with jQuery).
 
-##Prerequisites
+## Prerequisites
 
 Node Package Manager
 
-##Setup/Installation Requirements
+## Setup/Installation Requirements
 See it live @ https://bkiggen.github.io/focusworkspace
 
 Download it @ https://github.com/bkiggen/focusworkspace
@@ -65,9 +65,9 @@ I did extensive research into the branding done for workspace companies, with sp
 ![user stories](user-stories/user-stories.png)
 
 ## Technologies Used
-_This software was created using HTML, CSS, javascript, and jQuery _
+_This software was created using HTML, CSS, javascript, and jQuery_
 
-##Support and contact details
+## Support and contact details
 For inquiries, issues, or contributions, please contact Ben Kiggen at benkiggen@gmail.com
 
 ## License
